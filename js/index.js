@@ -1,7 +1,7 @@
 
 /*
 
-  author:sakura
+  author:wmy
 
 */
 
@@ -17,7 +17,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||新|年|快|乐|秋|云|宝|贝|我爱你FOREVER|希望你喜欢这个跨年仪式|2023 HAPPY NEW YEAR');
+      S.UI.simulate('|#countdown 3||生|日|快|乐|朱|珠|z|z|FRIEND FOREVER|希望你喜欢这个生日礼物|2024 HAPPY BIRTHDAY ');
     }
 
     S.Drawing.loop(function () {
